@@ -1,0 +1,136 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+:root {
+  --main-text-color: #2b7fff;
+  --main-font: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.title-blue {
+  font-family: var(--main-font);
+  font-weight: 700;
+  color: var(--main-text-color);
+}
+/* header */
+
+.menu {
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-weight: 700;
+}
+
+.hero-name {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+.hero-title {
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  font-weight: 700;
+}
+.call-button {
+  background-color: var(--main-text-color);
+  font-family: var(--main-font);
+  border: 0;
+  color: white;
+  font-weight: 600;
+}
+.hero-text {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+/* first page */
+
+.title-change {
+  font-family: var(--main-font);
+  font-weight: 700;
+}
+
+.small-description {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-weight: normal;
+}
+.big-description {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+.description-blue {
+  font-weight: 600;
+}
+/*why we block */
+.title-why {
+  font-family: var(--main-font);
+  font-weight: 700;
+}
+.title-why-blue {
+  color: var(--main-text-color);
+}
+.why-text {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+/* our procedures */
+.title-procedures {
+  font-family: var(--main-font);
+  font-weight: 700;
+}
+.text-procedures {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+/* comtacts */
+.title-contacts {
+  font-family: var(--main-font);
+  font-weight: 700;
+}
+
+/* footer */
+
+.footer-contacts {
+  font-family: var(--main-font);
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+}
+.footer-social-networks {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+.footer-confidentiality {
+  font-family: var(--main-font);
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+}
+.footer-protect {
+  font-family: var(--main-font);
+  font-weight: 400;
+}
